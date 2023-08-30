@@ -1,0 +1,105 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap');
+
+ 
+
+*{
+
+    margin: 0;
+
+}
+
+ 
+
+header{
+
+    height: 100vh;
+
+    position: relative;
+
+    padding-left:6.8rem ;
+
+    padding-top: 16.8rem;
+
+    overflow: hidden;
+
+}
+
+ 
+
+/* pseudo-elemento não existe enquanto nao tiver conteudo */
+
+header::before {
+
+content: '';
+
+background-image: url('./imagens/Rectangle\ 1.png');
+
+background-size: cover;
+
+height: 100%;
+
+width: 100%;
+
+display: block;
+
+position: absolute;
+
+left: 0;
+
+top: 0;
+
+z-index: -1;
+
+}
+
+ 
+
+h1 {
+
+color: #fff;
+
+text-shadow: 4px 4px 2px rgba(0,0,0,0.30);
+
+font-size: 3rem;
+
+font-family: 'Montserrat';
+
+font-weight: 700
+
+}
+
+ 
+
+span {
+
+color: #940CFF;
+
+text-shadow: 4px 4px 2px rgba(0,0,0,0.25);
+
+font-size: 2rem;
+
+font-family: 'Poppins';
+
+}
+
+ 
+
+.botao {
+
+background-color: #940CFF;
+
+color: #fff;
+
+font-family: 'Poppins';
+
+/*o primeiro valor é referente ao Y: altura e o segundo ao X: largura*/
+
+padding: .25rem 1rem;
+
+border-radius: 4px;
+
+text-decoration: none;
+
+}
